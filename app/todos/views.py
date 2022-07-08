@@ -18,3 +18,7 @@ class CreateTodo(generics.CreateAPIView):
     queryset = Todo.objects.all()
     
     serializer_class = TodoSerializer
+
+# adassadasdDAsa
+# asddas
+# asdassdass
