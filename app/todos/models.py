@@ -18,5 +18,6 @@ class Todo(models.Model):
     status = models.BooleanField(default=False)
     done_date = models.DateTimeField(blank=True, null=True)
     userId = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, default=1)
+
     def __str__(self):
         return self.title
